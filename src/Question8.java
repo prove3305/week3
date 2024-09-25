@@ -5,11 +5,11 @@ public class Question8 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("몸무게를 입력하세요: ");
-        int a = sc.nextInt();
+        int kg = sc.nextInt();
         System.out.println("키를 입력하세요: ");
-        int b = sc.nextInt();
+        int m = sc.nextInt();
 
-        int BMI = (a % (b * b));
+        int BMI = (kg % (m * m));
 
         if (BMI >= 30){
             System.out.println("비만 입니다.");
