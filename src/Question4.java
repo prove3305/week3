@@ -26,9 +26,9 @@ public class Question4{
                 break;
             default:
                 System.out.println("올바른 연산자를 입력하세요.");
-                break;
+
         }
-        sc.close();
+
     }
 }
 
