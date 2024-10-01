@@ -17,7 +17,7 @@ public class Question10 {
         } else {
             System.out.println("해당 조건을 만족하지 않습니다.");
         }
-
+        //
 
     }
 }
